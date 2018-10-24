@@ -19,8 +19,12 @@ Parameterwert 9999 => Rückgabewert 100 oder 99
 
 Folgende Einschränkungen: 
 
-Keine Bibliotheksfunktionen,
-keine schleifen (for, while, goto),
-keine globalen Variablen,
-keine Varaiablentypen außer Ganzzahltypen (insbesondere nicht float oder double),
+Keine Bibliotheksfunktionen
+
+keine schleifen (for, while, goto)
+
+keine globalen Variablen
+
+keine Varaiablentypen außer Ganzzahltypen (insbesondere nicht float oder double)
+
 Code darf keine Nebeneffekte haben 

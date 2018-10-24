@@ -4,7 +4,7 @@ unsigned long int squareroot(unsigned long int val);  //declares
 int printf(const char *, ...); // declares 
 
 int main(){
-    printf("Wurzel_aus_%lu_ist_%lu", (unsigned long)81,
+    printf("Wurzel aus %lu ist %lu\n", (unsigned long)81,
            squareroot((unsigned long)81));
     return 0;
 }

@@ -1,6 +1,5 @@
 // wurzel.c berechnet wurzel 
-
-//segmentation fault /infity loop für paramenterwert 12345 & 9999
+//segmentation faul for val = 12345
 
 unsigned long int squareroot(unsigned long int val);  //declares 
 int printf(const char *, ...); // declares 
@@ -8,15 +7,16 @@ unsigned long int help(unsigned long int a, unsigned long int b, unsigned long i
 
 
 int main(){
-    printf("Wurzel aus %lu ist %lu\n", (unsigned long)144,
-           squareroot((unsigned long)144));
+    printf("Wurzel aus %lu ist %lu\n", (unsigned long)12345,
+           squareroot((unsigned long)12345));
     return 0;
 }
 
 //defines the function 
 unsigned long int help(unsigned long int a, unsigned long int b, unsigned long int c){
 printf("a = %lu b = %lu\n", a, b);
-if(a*a==c) return a;
+
+if(a*a==c||a*a==c+1||a*a==c-1) return a;
 else return help(((a+b)/2),(c/a),c);
 
 

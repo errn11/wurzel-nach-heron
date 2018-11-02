@@ -1,4 +1,7 @@
 // wurzel.c berechnet wurzel 
+
+//segmentation fault /infity loop für paramenterwert 12345 & 9999
+
 unsigned long int squareroot(unsigned long int val);  //declares 
 int printf(const char *, ...); // declares 
 unsigned long int help(unsigned long int a, unsigned long int b, unsigned long int c);
